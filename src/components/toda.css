@@ -1,0 +1,74 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color: #121212;
+}
+header{
+    height:90px;
+    background-color: aqua;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+form{
+    padding:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+form input{
+    padding:30px;
+    width:400px;
+    font-size: 24px;
+    color:brown;
+    background-color: #F0F0F0;
+}
+form button{
+    background-color: #00ADB5;
+    color:white;
+    padding: 30px;
+}
+section h1
+{
+    font-size: 36px;
+    color:#00ADB7;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin:10px;
+    gap:40px;
+}
+.task{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #393E46;
+    width:600px;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.task p{
+    padding: 10px;
+    font-size: 28px;
+    color:#EEEEEE;
+} 
+.task button{
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
